@@ -1,0 +1,42 @@
+header {
+	background: white;
+	padding: 15px 0px;
+}
+
+
+header h1,header h3{
+    width: 700px;
+    margin:0 auto;
+}
+
+header h1 {
+	font: 45px/56px '微软雅黑','黑体',sans-serif;
+}
+
+header h3 {
+	font:25px/31px '微软雅黑','黑体',sans-serif;
+	color: gray;
+}
+
+nav {
+	background: #222
+}
+
+ul {
+	list-style-type: none;
+	width: 1100px;
+	height: 60px;
+	}
+
+nav  li {
+	float: left;
+	
+}
+
+nav a {
+	font:25px/31px '微软雅黑','黑体',sans-serif;
+	color: red;
+/*	display: block;
+*/
+
+}

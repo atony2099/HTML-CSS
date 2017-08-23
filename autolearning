@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- http://www.ituring.com.cn/article/64580  -->
+	<title></title>
+
+	<style>
+		#demo{
+    width: 500px;
+    /*计算出最大可用空间*/
+    margin: auto; /* 或者 margin: 0 auto; */
+    background: #F00
+}
+
+
+	</style>
+
+</head>
+<body>
+
+	
+<div id="demo">
+    <p>恩，我就是那个需要水平居中的家伙。</p>
+</div>
+
+</body>
+</html>

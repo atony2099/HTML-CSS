@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#example {
+				width: 400px;
+
+			}
+
+			#example p {
+				margin: 0 0.25em;
+				padding: 0.25em 0;
+			}
+			#div-before,
+			#div-after {
+				background-color: #88d;
+				color: #000;
+			}
+
+			#div-1 {
+				background-color: #000;
+				color: #fff;
+				position:absolute;
+			/*	top:10px;
+				left:-100px;
+*/
+			}
+
+	
+			#div-1a {
+				background-color: #d33;
+				color: #fff;
+				position: absolute;
+				right:  0;
+				top: 0;
+				width: 200px;
+			}
+
+			#div-1b {
+				background-color: #3d3;
+				color: #fff;
+			/*	position: absolute;
+				top: 0;
+				left: 0;
+				width: 200px;
+*/			}
+
+			#div-1c {
+				background-color: #33d;
+				color: #fff;
+			}
+
+	
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+<div id="example">
+				<div id="div-before">
+					<p>id = div-before</p>
+				</div>
+				<div id="div-1">
+						<p>id = div-1</p>
+						<div id="div-1a">
+							<p>id = div-1a</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium dui sit amet felis. Integer sit amet diam. Phasellus ultrices viverra velit.</p>
+						</div>
+						<div id="div-1b">
+							<p>id = div-1b</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium dui sit amet felis. Integer sit amet diam. Phasellus ultrices viverra velit. Nam mattis, arcu ut bibendum commodo, magna nisi tincidunt tortor, quis accumsan augue ipsum id lorem.</p>
+						</div>
+						<div id="div-1c">
+							<p>id = div-1c</p>
+						</div>
+				</div>
+				<div id="div-after">
+					<p>id = div-after</p>
+				</div>
+			</div>
+
+
+</body>
+</html>
