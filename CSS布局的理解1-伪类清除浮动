@@ -4,15 +4,18 @@
         <meta charset="utf-8" />
         <title>宽度自适应布局</title>
         <style>
-            .wrap {
+            
+          .wrap {
                 background-color: #D66464;
             }
+    
             .clearfix:after {
                 content: "";
-                clear: both;
                 display: block;
+                clear: both;
             }
-            .left {
+
+              .left {
                 float: left;
                 width: 100px;
                 background: #00f;
@@ -25,18 +28,21 @@
                 height: 200px;
             }
             .center {
-                background: #FFFFFF;
+                background: #ff0;
                 margin-left: 110px;
                 margin-right: 160px;
                 height: 150px;
             }
-        </style>
+            
+
+         </style>
     </head>
     <body>
         <div class="wrap clearfix">
-            <div class="left">left，宽度固定，高度可固定也可以由内容撑开。</div>
-            <div class="right">right，宽度固定，高度可固定也可以由内容撑开。</div>
+                        <div class="left">left，宽度固定，高度可固定也可以由内容撑开</div>
+            <div class="right">right，宽度固定，高度可固定也可以由内容撑开</div>
             <div class="center">center，可以自适应浏览器宽度，高度可固定也可以由内容撑开。</div>
+
         </div>
     </body>
 </html>
