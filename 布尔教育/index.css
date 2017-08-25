@@ -19,24 +19,31 @@ header h3 {
 }
 
 nav {
-	background: #222
+	background: #222;
+
+}
+
+nav::after {
+	content: "";
+	display:block;
+	clear: both;
 }
 
 ul {
-	list-style-type: none;
-	width: 1100px;
+	/*list-style-type: none;
+*/	width: 1100px;
 	height: 60px;
-	}
-
+}
 nav  li {
 	float: left;
 	
 }
 
 nav a {
-	font:25px/31px '微软雅黑','黑体',sans-serif;
+	font:17px/60px '微软雅黑','黑体',sans-serif;
 	color: red;
-/*	display: block;
-*/
+	width: 100px;
+	display: block;
+
 
 }
