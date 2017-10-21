@@ -1,0 +1,57 @@
+<html>
+<head>
+<script type="text/javascript">
+
+</script>
+<style media="screen">
+  .item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: red;
+    text-align: center;
+    /*display: flex;*/
+    flex-basis: 100px;
+
+    /*flex-grow: 1*/
+  }
+  #third {
+    background: orange;
+    /*flex-grow:1*/
+    /*align-self: flex-end ;*/
+
+  }
+  .container {
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+      align-items: stretch;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="item">
+    1
+  </div>
+  <div class="item">
+    2
+  </div>
+  <div class="item" id ="third" >
+    3
+  </div>
+
+</div>
+
+<span>here</span><div class="">
+  where
+</div>
+
+</body>
+</html>

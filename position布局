@@ -21,7 +21,7 @@
 			#div-1 {
 				background-color: #000;
 				color: #fff;
-				position:absolute;
+				position:relative;
 			/*	top:10px;
 				left:-100px;
 */

@@ -3,20 +3,16 @@
 
 ![](http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png)
 
-> - flex-direction : 主轴的方向
+> - flex-direction : 主轴的方向-
 >
-> - flex-wrap
->
-> - flex-flow
+> - flex-wrap:换行
 >
 > - justify-content
 >
 >   ```css
 >     justify-content: flex-start | flex-end | center | space-between | space-around;
 >   主轴上对齐的方式
->
 >   ```
->
 > - align-items
 >
 >   > - `flex-start`：交叉轴的起点对齐。
@@ -33,19 +29,14 @@
 
 ## ITEM的布局方式
 
-> - `order`
+> - `order` :排序
 >
 > - `flex-grow`
 >
->   ​
->
 > - `flex-shrink`
 >
-> - `flex-basis`
->
-> - `flex`
+> - `flex-basis`  some item  space  item占据的空间
 >
 > - `align-self`
 >
 >   ​
-
