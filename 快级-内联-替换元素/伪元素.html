@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	.box:before {
+		content: "在干嘛呢";
+		display: block;;
+		background: blue;
+	}
+
+	.box::after{
+		content: "我也不知道"
+	}
+
+	.test-clearfix{
+		background: black;
+	}
+	.test-clearfix:after {
+		content: '';
+		display: block;
+		clear-fix:both;
+	}
+
+	.first {
+		background: red;
+		float: left;;
+	}
+
+	.second{
+		background: blue;
+		float: left;
+	}
+
+	</style>
+</head>
+<body>
+	<div class=" box">
+		  不知道啊
+	</div>
+
+	<div class="test-clearfix">
+		<div class="first">aa</div>
+		<div class="second">bb</div>
+	</div>
+
+
+</body>
+</html>
