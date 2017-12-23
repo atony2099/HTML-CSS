@@ -1,0 +1,137 @@
+/*
+=======================================================
+There's a lot of css3 selectors stuff in here. I explain the
+tricky ones but feel free to look up anything I've missed.
+=======================================================
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex; /* flex superpowers activaed! */
+	flex-direction: column; /* Stack the flex-items vertically not the default horizontal view */
+	background-color: #fff;
+	margin: 0;
+	font-family: Lato, sans-serif;
+	color: #222;
+	font-size: 0.9em;
+	height: 100%;
+}
+
+main {
+	flex: 1 0 auto;
+	display: flex;
+}
+
+aside {
+	flex: 0 0 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+	justify-content: space-around;
+
+}
+
+aside i .fa {
+	font-size: 0.9em;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+
+}
+.music-head {
+	flex: 0 0 280px;
+	  background-color: #4e4e4e;
+		display: flex;;
+		padding: 40px;
+		color: white;
+}
+.music-list{
+	flex: 1 0 auto;
+	list-style-type: none;
+	padding: 5px 10px 0px;
+}
+
+li {
+	display: flex;;
+	padding: 0 20px;
+	min-height: 50px;
+
+}
+li p {
+	flex: 0 0 25%;
+
+}
+
+li:nth-child(2n){
+	background:  #f2f2f2
+
+}
+
+.catty-music {
+	display: flex;;
+	flex-direction: column;
+	padding-left:50px;
+}
+
+.catty-music div:nth-child(1){
+	margin-bottom: auto;
+}
+
+.catty-music div:nth-child(1) p:first-child{
+	font-size: 1.8em;
+	margin: 0 0 10px;
+	font-weight: 300;
+}
+
+.catty-music div:nth-child(1) p:not(:first-child) {
+	font-size: 0.9em;
+	margin: 2px 0;
+	font-weight: 300;
+}
+
+.catty-music div:nth-child(2) i.fa{
+	font-size: 0.9em;
+	padding: 0 0.7em;
+	font-weight: 300;
+}
+
+footer {
+	flex: 0 0 90px;
+	background: blue;
+	display: flex;
+	color: white;
+	padding: 5px;
+
+}
+
+.music-small {
+	display: flex;;
+	padding: 5px 10px;
+	margin-right: auto;;
+}
+
+.music-small img {
+	padding-right: 10px;
+}
+
+.music-control {
+	display: flex;
+	align-items: center;;
+	width: 50%;
+	justify-content: space-between;
+
+
+}

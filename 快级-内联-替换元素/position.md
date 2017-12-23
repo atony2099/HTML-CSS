@@ -1,16 +1,8 @@
+## Replaced element
 
-## static
-默认的
-
-## absolute
-是否保留文档流位置:否，文档流里根本没有他的位置
-相对的元素：第一个非static元素
+> whose representation is independent of the CSS formatting model.
 
 
-## relateive
-是否保留文档流位置： 是，保留文档的位置，只是视觉上他发生了偏移
-相对元素：自己
-应用场景： 作为absolute的包含快
+## 伪元素
 
-## fixed
-相对元素： 浏览器窗口
+> 是什么，虚伪的元素，不影响文档的结构
