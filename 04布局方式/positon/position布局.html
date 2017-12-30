@@ -5,26 +5,26 @@
 	<style>
 			.absoulte{
 				background: black;
-				margin: 50px;
-				/*position: absolute;*/
+				margin: 200px;
+				position: relative;
 			}
 			.div1{
 				width: 100px;
 				height: 100px;
 				background: red;
-
 			}
 			.div2{
 				width: 200px;
 				height: 200px;
 				background: blue;
 				position: absolute;
-				/*left: 0px;
-				top: 0px;*/
+				left: 10px;
+				top:10px;
+
 			}
-			.div3 {
-				width: 400px;
-				height: 200px;
+			.div3{
+				width: 100px;
+				height: 100px;
 				background: gray;
 			}
 
@@ -32,7 +32,7 @@
 
 			.relatvie{
 				background: black;
-				margin: 50px;
+				margin: 200px;
 
 			}
 			.rdiv1{
@@ -48,7 +48,9 @@
 				width: 200px;
 				height: 200px;
 				background: blue;
-				position: absolute;
+				position: relative;
+				/*left:100px;
+				top:100px;*/
 				/*left: 0px;
 				top: 0px;*/
 			}
@@ -59,13 +61,13 @@
 	<div class="absoulte">
 		<div class="div1">div1</div>
 		<div class="div2">div2</div>
-		<div class="div3">div3</div>
+			<div class="div3">div3</div>
 	</div>
 
 	<div class="relatvie">
 		<div class="rdiv1">div1</div>
 		<div class="rdiv2">div2</div>
-		<!-- <div class="rdiv3">div3</div> -->
+		<div class="rdiv3">div3</div>
 	</div>
 
 </body>

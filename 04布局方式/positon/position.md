@@ -1,4 +1,8 @@
 
+
+
+# html 的 positon
+
 ## static
 默认的
 
@@ -14,3 +18,8 @@
 
 ## fixed
 相对元素： 浏览器窗口
+
+#reactNative 的postion
+所有元素默认都是relative;
+
+> position in React Native is similar to regular CSS, but everything is set to relative by default, so absolute positioning is always just relative to the parent
