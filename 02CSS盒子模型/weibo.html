@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style media="screen">
+
+body{
+	color: white;
+}
+
+.auth-container{
+	display: flex;
+	margin-top: 300px;
+}
+
+.auth{
+	height: 300px;
+	background-color: red;
+	flex: 1 1 auto;
+	line-height: 300px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 3em;
+}
+
+.sperate{
+	height: 100px;
+	width: 30px;
+	background: white
+}
+
+.bottom-container{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	font-size: 2em;
+	text-align: center;
+	height: 50px;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copy-contaniner{
+	background:black;
+	border-radius: 10px;
+}
+</style>
+
+<script type="text/javascript">
+	function 	handleWeibo(div){
+		 alert("正在刷新");
+		 // do refresh ===
+	 }
+
+	 function handelOffic(div){
+		 console.log(div);
+	 }
+
+
+	function handleRefreshWeibo(weiboToken,openID){
+		alert("is refreshing"+weiboToken+openID);
+
+	}
+
+
+
+</script>
+
+
+</head>
+<body>
+	<div class="auth-container">
+		<div class="weibo-container auth" onclick="handleWeibo()" >微博认证</div>
+		<div class="sperate"></div>
+		<div class="office-container auth" onclick="handleRefreshWeibo(this)">官方认证</div>
+		<div class="bottom-container">
+			<span class ="copy-contaniner" onclick="handleCopy()">
+					复制公众号dc2222
+			</span>
+		</div>
+	<div>
+</body>
+</html>
